@@ -1,3 +1,15 @@
+<script setup>
+
+
+// Import éléments de vue
+// Import éléments de routage
+import { RouterLink, useRouter } from 'vue-router';
+const router = useRouter()
+
+
+
+</script>
+
 <template>
   <div class="bg-white pb-6 relative">
     <div class="absolute top-0 left-1/2 transform -translate-x-1/2">
@@ -14,13 +26,11 @@
   <span class="hover:text-hoverGray px-2 py-1">Toutes les LUNETTES</span>
   <span class="hover:text-hoverGray px-2 py-1">PERSONNALISER</span>
   <span class="hover:text-hoverGray px-2 py-1">ACCESSOIRES</span>
-  <span class="hover:text-hoverGray px-2 py-1">Trouvez vos LUNETTES</span>
+  <RouterLink to="/inscription">
+  <span class="hover:text-hoverGray px-2 py-1">MON COMPTE</span>
+  </RouterLink>
 </div>
   </div>
+
 </template>
 
-<script>
-export default {
-  name: 'Header'
-}
-</script>
