@@ -19,9 +19,11 @@
         </div>
         <span class="text-white text-lg font-bold text-left ml-[400px] ">120,00€</span>
         <div class="mt-10 flex justify-center">
+          <RouterLink to="/personnalisation">
           <button class="bg-white text-custom-gradient font-bold py-2 px-6 rounded-full hover:bg-gray-200 transition duration-200">
             CONFIGURER MAINTENANT
           </button>
+        </RouterLink>
       </div>
       </div>
       
@@ -70,13 +72,13 @@
   </div>
   <div class="underline bg-red-400 w-[200px] h-1 mx-auto mt-1"></div>
 
-  <div class="transform rotate-45 absolute right-0 bg-gray-100 p-2 border-b-2 border-black mb-">
+  <div class="transform rotate-12 absolute right-0 bg-gray-100 p-2 border-b-2 border-black mb-">
           <span class="text-black uppercase  text-xs ">PLUS DE 10.000  CLIENTS SATISFAITS</span>
         </div>
 
 
 
-      <div class="flex justify-between px-10 my-[150px]  space-x-4"> <!-- Conteneur principal pour les lunettes -->
+      <div class="flex justify-between px-10 my-[100px] PX  space-x-4"> <!-- Conteneur principal pour les lunettes -->
   <!-- Lunettes 1 -->
   <div class="flex flex-col items-center">
     <span class="bg-gray-200 py-1 px-4 rounded-full text-sm uppercase font-semibold mb-[50px]">Le plus populaire</span>

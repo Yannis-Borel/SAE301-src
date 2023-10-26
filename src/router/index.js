@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Inscription from '../views/Inscription.vue'
+import Map from '../views/Map.vue'
+import Personnalisation from '../views/Personnalisation.vue'
+import Accueil from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +17,21 @@ const router = createRouter({
       path: '/inscription',
       name: 'inscription',
       component: Inscription
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: Map
+    },
+    {
+      path: '/personnalisation',
+      name: 'personnalisation',
+      component: Personnalisation
+    },
+    {
+      path: '/accueil',
+      name: 'accueil',
+      component: Accueil
     },
     {
       path: '/about',
