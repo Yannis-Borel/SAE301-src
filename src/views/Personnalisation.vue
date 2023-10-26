@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import PocketBase from 'pocketbase';
 var pocketbase_ip = "";
 if (import.meta.env.MODE === "production")
-    pocketbase_ip = "http://tavue.yannisborel.fr/:443"; 
+    pocketbase_ip = "http://tavue.yannisborel.fr:80"; 
 else pocketbase_ip = "http://127.0.0.1:8090";
 const pb = new PocketBase(pocketbase_ip);
 
