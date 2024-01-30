@@ -14,7 +14,7 @@
             <img src="../assets/lunettes_empilé.svg" alt="Lunettes" class="w-[300px]">
         </div>
           <div class="content-right flex items-center justify-end flex-1 mr-[250px]">
-            <img src="../assets/logo_blanc.svg" alt="Logo TAVUE">
+            <img src="../assets/Logo_blanc.svg" alt="Logo TAVUE">
           </div>
         </div>
         <span class="text-white text-lg font-bold text-left ml-[400px] ">120,00€</span>
