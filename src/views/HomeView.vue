@@ -82,7 +82,7 @@
   <!-- Lunettes 1 -->
   <div class="flex flex-col items-center">
     <span class="bg-gray-200 py-1 px-4 rounded-full text-sm uppercase font-semibold mb-[50px]">Le plus populaire</span>
-    <img src="../assets/lunettes1.svg" alt="lunettes1" class="w-[200px] h-auto">
+    <img src="../assets/Lunettes1.svg" alt="lunettes1" class="w-[200px] h-auto">
     <span class="mt-16 text-xl font-bold">HAMTOUTGLASSES</span>
     <span class="mt-2 text-lg font-medium">150,00 €</span>
     <button class="mt-2 bg-black text-white py-2 px-4 rounded hover:bg-gray-700">ACHETER MAINTENANT</button>
