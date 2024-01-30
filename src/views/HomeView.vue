@@ -91,7 +91,7 @@
   <!-- Lunettes 2 -->
   <div class="flex flex-col items-center">
     <span class="bg-gray-200 py-1 px-4 rounded-full text-sm uppercase font-semibold mb-[50px]">Nouveautés</span>
-    <img src="../assets/lunettes2.svg" alt="lunettes2" class="w-[200px] h-auto">
+    <img src="../assets/Lunettes2.svg" alt="lunettes2" class="w-[200px] h-auto">
     <span class="mt-16 text-xl font-bold">MASHALLAHGLASSES</span>
     <span class="mt-2 text-lg font-medium">180,00 €</span>
     <button class="mt-2 bg-black text-white py-2 px-4 rounded hover:bg-gray-700">ACHETER MAINTENANT</button>
@@ -100,7 +100,7 @@
   <!-- Lunettes 3 -->
   <div class="flex flex-col items-center">
     <span class="bg-gray-200 py-1 px-4 rounded-full text-sm uppercase font-semibold mb-[50px]">Nouveautés</span>
-    <img src="../assets/lunettes3.svg" alt="lunettes3" class="w-[200px] h-auto">
+    <img src="../assets/Lunettes3.svg" alt="lunettes3" class="w-[200px] h-auto">
     <span class="mt-16 text-xl font-bold">O'MOUADEBGLASSES</span>
     <span class="mt-2 text-lg font-medium">80,00 €</span>
     <button class="mt-2 bg-black text-white py-2 px-4 rounded hover:bg-gray-700">ACHETER MAINTENANT</button>
@@ -109,7 +109,7 @@
   <!-- Lunettes 4 -->
   <div class="flex flex-col items-center">
     <span class="bg-gray-200 py-1 px-4 rounded-full text-sm uppercase font-semibold mb-[50px]">Nouveautés</span>
-    <img src="../assets/lunettes4.svg" alt="lunettes4" class="w-[200px] h-auto">
+    <img src="../assets/Lunettes4.svg" alt="lunettes4" class="w-[200px] h-auto">
     <span class="mt-16 text-xl font-bold">WALIGLASSES</span>
     <span class="mt-2 text-lg font-medium">230,00 €</span>
     <button class="mt-2 bg-black text-white py-2 px-4 rounded hover:bg-gray-700">ACHETER MAINTENANT</button>
