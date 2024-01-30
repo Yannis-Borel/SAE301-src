@@ -1,11 +1,13 @@
 <script>
 import PocketBase from 'pocketbase'
 var connected = false;
-var pocketbase_ip = "";
+/*var pocketbase_ip = "";
 if (import.meta.env.MODE === "production")
-pocketbase_ip = "http://tavue.yannisborel.fr:80";
+    pocketbase_ip = "https://tavue.yannisborel.fr:443"; 
 else pocketbase_ip = "http://127.0.0.1:8090";
-const pb = new PocketBase(pocketbase_ip);
+/const pb = new PocketBase(pocketbase_ip);
+*/const pb = new PocketBase(import.meta.env.VITE_POCKETBASE_IP);
+
 var currentUser;
 export default {
   methods: {

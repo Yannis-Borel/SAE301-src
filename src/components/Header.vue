@@ -19,7 +19,9 @@ const router = useRouter()
       <RouterLink to="/map">
       <img src="@/assets/geolocalisation.svg" alt="Icon 4" class="w-8 h-8 m-6" >
     </RouterLink>
+    <RouterLink to="/Exemple">
       <img src="@/assets/Panier.svg" alt="Icon 1" class="w-8 h-8 m-6">
+    </RouterLink>
       <RouterLink to="/inscription">
       <img src="@/assets/Compte.svg" alt="Icon 2" class="w-8 h-8 m-6">
     </RouterLink>
